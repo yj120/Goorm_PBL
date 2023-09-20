@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box; /*이게 모다냐*/
+}
+
+
+body{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh; /*브라우저 요소 크기의 꽉차게*/
+}
+
+h1{
+  margin-top: 10px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.todo-container{
+  max-width: 500px;
+  width: 100%;
+  margin-top:50px;
+  margin-bottom: 50px;
+  background-color: rgb(221, 235, 245);
+  border-radius: 30px;
+  box-shadow: 1px 4px 4px 1px gray;
+  text-align: center;
+  padding: 20px;
+}
+
+#inputField #todoInput{
+  
+  width: calc(100%-45px);
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+
+#InputField #todoInput:focus{
+  outline: none;
+}
+
+#inputField #addBtn{
+  position: relative;
+  cursor: pointer;
+  background-color: rgb(221, 235, 245);
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  
+}
+
+.fa-solid{
+  width: 30px;
+}
+
+#inputField #addBtn span{
+  display: block;
+  width: 2px;
+  height: 15px;
+  background-color: aliceblue;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+
+#inputField #addBtn span:last-child {
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+#todoList {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+
+#todoList li {
+  padding: 10px 0;
+  user-select: none;
+  list-style: none;
+
+}
+
+#todoList button {
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+#todoList li.complete{
+  text-decoration: line-through; /*텍스트에 가로줄*/
+  color: rgb(100, 109, 115);
+}
+
+
+#todoList li.complete button::after{
+  content: "";
+  display: block;
+  width: 5px;
+  height: 10px;
+  transform: translate(-2px, -2px) rotate(45deg);
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+
+#todoList li.complete .Check-button::after{
+  content: "";
+  display: block;
+  width: 5px;
+  height: 10px;
+  transform: translate(-2px, -2px) rotate(45deg);
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+
+
+}
+
+.delete-btn-wrap button{
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: skyblue;
+  color: #fff;
+  padding: 8px;
+}

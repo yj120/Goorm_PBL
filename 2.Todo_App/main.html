@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://kit.fontawesome.com/457e1512ed.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  <div class="todo-container">
+    <h1>Todo App</h1>
+    <div id="inputField">
+      <input type="text" id="todoInput" placeholder="할 일 추가하기" onkeydown="keyCodeCheck()">
+      <button type="button" id="addBtn">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+    <ul id="todoList">
+
+    </ul>
+    <div class="delete-btn-wrap">
+      <button onclick="deleteAll();">전체삭제</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script> <!--javascript 파일 참조하기-->
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+body{
+  margin-top: 30px;
+}
+.export_btn{
+  width: auto;
+  height: 2.5em;
+  font-size: 1em;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(3, 108, 200, 0.528);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.6);
+  color: white;
+  
+}
+
+.cursor{
+  margin: 20px;
+  font-weight: 500;
+}
+
+.middle{
+  margin-left: 20px;
+}
+
+
+.myTable{
+  display: inline;
+}
+
+.myTableColumns{
+  flex-wrap: wrap;
+  white-space: nowrap; /*div tage 줄 안바뀌게*/
+
+}
+.column{
+  display: inline-block;
+  white-space: break-spaces;
+  width: 7em;
+  background-color: rgba(237, 238, 224, 0.885); 
+}
+
+.row{
+  display: block;
+  width: 7em;
+}
+
+.title{
+  background-color: rgba(237, 238, 224, 0.885);
+}
+
+
+td{
+  width: 7em;
+  height: 1.5em;
+  text-align: center;
+  border: 0.5px solid gainsboro;
+  
+}
+
+
+.cell{
+  width: 7em;
+}
+
+
+.input_cell{
+  border: none;
+  cursor: cell;
+}
+
+
+.selected{
+  background-color: rgba(161, 206, 236, 0.965);
+  color: white;
+  font-weight: bold;
+}
