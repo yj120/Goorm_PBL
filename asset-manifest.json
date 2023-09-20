@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Goorm_PBL/5.Budget_App/static/css/main.1e779bd0.css",
+    "main.js": "/Goorm_PBL/5.Budget_App/static/js/main.c97c6874.js",
+    "static/js/787.bf77a3b6.chunk.js": "/Goorm_PBL/5.Budget_App/static/js/787.bf77a3b6.chunk.js",
+    "index.html": "/Goorm_PBL/5.Budget_App/index.html",
+    "main.1e779bd0.css.map": "/Goorm_PBL/5.Budget_App/static/css/main.1e779bd0.css.map",
+    "main.c97c6874.js.map": "/Goorm_PBL/5.Budget_App/static/js/main.c97c6874.js.map",
+    "787.bf77a3b6.chunk.js.map": "/Goorm_PBL/5.Budget_App/static/js/787.bf77a3b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e779bd0.css",
+    "static/js/main.c97c6874.js"
+  ]
+}
